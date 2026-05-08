@@ -1,0 +1,6 @@
+# 非面试题文件 - 不要推送到仓库
+cron-optimization-report-*.md
+proposed-agent-interview-collector.py
+__pycache__/
+.last_collected.json
+.codex/
