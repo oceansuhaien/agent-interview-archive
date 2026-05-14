@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-11",
+  "date": "2026-05-14",
   "sources": [
     {
       "name": "coprep",
@@ -28,9 +28,9 @@
       "key_points": [
         "Learn about how data is applied by industry leaders",
         "How different roles contribute to data.",
-        "Training more people?",
         "Explain the main parts of a RAG system and how they work.",
-        "What are the main benefits of using RAG instead of just relying on an LLM’s internal knowledge?"
+        "What are the main benefits of using RAG instead of just relying on an LLM’s internal knowledge?",
+        "If you rely only on an LLM’s built-in knowledge, the system is limited to what it was trained on, which could be outdated or lacking detail."
       ],
       "question_topics": [
         "RAG pipeline",
@@ -139,12 +139,22 @@
     {
       "name": "langchain_multi_agent",
       "url": "https://docs.langchain.com/oss/python/langchain/multi-agent/index",
-      "title": "",
+      "title": "Multi-agent - Docs by LangChain",
       "topic": "LangChain multi-agent orchestration docs",
-      "key_points": [],
-      "question_topics": [],
-      "fetch_failed": true,
-      "note": "Fetch failed (JS-rendered or blocked); Agent should use web_extract fallback."
+      "key_points": [
+        "Subagents A main agent coordinates subagents as tools. All routing passes through the main agent, wh",
+        "Distributed development : Can different teams maintain components independently?",
+        "Parallelization : Can multiple agents execute concurrently?",
+        "Multi-hop : Does the pattern support calling multiple subagents in series?",
+        "Direct user interaction : Can subagents converse directly with the user?"
+      ],
+      "question_topics": [
+        "Multi-agent coordination",
+        "Agent communication",
+        "Orchestration",
+        "LangChain/LangGraph",
+        "Agent frameworks"
+      ]
     }
   ]
 }
