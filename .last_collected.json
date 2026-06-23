@@ -1,68 +1,104 @@
 {
-  "date": "2026-06-22",
+  "date": "2026-06-23",
   "sources": [
     {
       "name": "coprep",
       "url": "https://www.coprep.ai/blog/top-agentic-ai-interview-questions-for-2026-beyond-the-models",
       "title": "Top Agentic AI Interview Questions for 2026: Beyond the Models",
-      "topic": "Agentic AI fundamentals \u2014 ReAct, GraphRAG, autonomous agents",
+      "topic": "Agentic AI fundamentals — ReAct, planning, tool use",
       "key_points": [
-        "ReAct is a cognitive architecture, not just a prompt template \u2014 it's reasoning+acting in loops",
-        "GraphRAG enables relationship traversal across entities via knowledge graphs (Cypher/GraphQL)",
-        "Autonomous agents need Planner, Executor, Memory (short+long term), and a Monitor/Critic module",
-        "Failure analysis must cover: tool failure, parsing ambiguity, hallucinated actions",
-        "Meta-cognition (self-correction, loop detection) is the hardest part of autonomous agents"
+        "How to Structure Your Answer",
+        "How to Structure Your Answer",
+        "How to Structure Your Answer",
+        "How to Structure Your Answer",
+        "This is the critical part. Show you’re not just an optimist."
       ],
       "question_topics": [
         "Agent architecture",
         "Planning & reasoning",
         "Tool use",
-        "Hallucination mitigation",
-        "GraphRAG"
+        "Hallucination mitigation"
       ]
     },
     {
       "name": "datacamp_rag",
       "url": "https://www.datacamp.com/blog/rag-interview-questions",
-      "title": "Top 30 RAG Interview Questions and Answers for 2026",
-      "topic": "RAG interview questions (30 questions) \u2014 basic, intermediate, advanced, AI engineer",
+      "title": "Top 30 RAG Interview Questions and Answers for 2026 | DataCamp",
+      "topic": "RAG interview questions (30 questions)",
       "key_points": [
-        "RAG = retriever + generator; retrieval methods: sparse (BM25/TF-IDF) vs dense (BERT/DPR)",
-        "Hybrid search combines BM25 speed with dense re-ranking accuracy",
-        "Chunking techniques: fixed-length, sentence, paragraph, semantic, sliding window, late chunking",
-        "CAG (Cache-Augmented Generation) vs RAG: CAG for static datasets, RAG for dynamic/fresh data",
-        "Advanced RAG types: Adaptive RAG, Agentic RAG, Corrective RAG (CRAG), Self-RAG",
-        "Production concerns: latency, data privacy (PII redaction, encryption, RBAC), monitoring"
+        "RAG combines LLMs with retrieval systems to bring in relevant external information during text generation",
+        "Two main components: retriever (searches external sources) and generator (LLM that produces answers)",
+        "RAG reduces hallucinations by grounding answers in real data rather than relying solely on internal knowledge",
+        "Evaluation requires looking at both retrieval (precision/recall) and generation (BLEU/ROUGE) metrics",
+        "Common applications: QA/support systems, conversational agents, content generation, domain-specific research"
       ],
       "question_topics": [
-        "RAG fundamentals",
-        "Retrieval methods",
-        "Chunking strategies",
-        "Advanced RAG systems",
+        "RAG pipeline",
+        "Retrieval strategies",
+        "Embedding & chunking",
+        "Tool calling & integration",
         "Production deployment",
-        "Data privacy & security"
+        "Evaluation & testing",
+        "Advanced RAG (CAG, CRAG, Agentic RAG)"
+      ],
+      "fetch_failed": false,
+      "note": "Retrieved via web_extract fallback",
+      "questions": [
+        "Explain the main parts of a RAG system and how they work.",
+        "What are the main benefits of using RAG instead of just relying on an LLM's internal knowledge?",
+        "What are some common applications of RAG?",
+        "What types of external knowledge sources can RAG use?",
+        "Does prompt engineering matter in RAG?",
+        "How does the retriever work in a RAG system? What are common retrieval methods?",
+        "What are the challenges of combining retrieved information with LLM generation?",
+        "What's the role of a vector database in RAG?",
+        "What are some common ways to evaluate RAG systems?",
+        "How do you handle ambiguous or incomplete queries in a RAG system?",
+        "How do you choose the right retriever for a RAG application?",
+        "Describe what a hybrid search is.",
+        "Do you need a vector database to implement RAG?",
+        "How can you ensure that the retrieved information is relevant and accurate?",
+        "What are some techniques for handling long documents or large knowledge bases in RAG?",
+        "How can you optimize the performance of a RAG system?",
+        "How does a RAG system maintain context in a multi-turn conversation?",
+        "What are the different chunking techniques and their pros and cons?",
+        "What are the trade-offs between larger vs smaller chunks?",
+        "What is late chunking and how is it different from traditional chunking?",
+        "Explain contextualization in RAG and its impact on performance.",
+        "How can you address biases in retrieved information or LLM generation?",
+        "Discuss challenges of handling dynamic or evolving knowledge bases.",
+        "What is CAG and how does it differ from traditional RAG?",
+        "What are some advanced RAG systems (Adaptive RAG, Agentic RAG, CRAG, Self-RAG)?",
+        "How can you reduce latency in a real-time RAG system?",
+        "What are some limitations or challenges of RAG systems?",
+        "How would you evaluate and improve a RAG system in production?",
+        "How do you ensure reliability and robustness of a RAG system in production?",
+        "How would you design a RAG system for a specific task?",
+        "How would you fine-tune an LLM for a RAG task?",
+        "How do you handle out-of-date information in fast-changing domains?",
+        "How do you balance retrieval relevance and diversity?",
+        "How do you ensure generated output is consistent with retrieved information?",
+        "How do you ensure data privacy and security in a RAG system?"
       ]
     },
     {
       "name": "novelvista",
       "url": "https://www.novelvista.com/blogs/ai-and-ml/agentic-ai-interview-questions-answers",
       "title": "Agentic AI Interview Questions & Answers (2026 Guide)",
-      "topic": "Agentic AI comprehensive \u2014 architecture, memory, multi-agent, safety",
+      "topic": "Agentic AI comprehensive — architecture, memory, multi-agent, safety",
       "key_points": [
-        "What makes an AI system 'agentic' vs just automated (autonomy + goal-orientation)",
-        "Goal-driven vs instruction-driven systems: goals allow adaptation, instructions are rigid",
-        "Agent memory: episodic (past experiences), semantic (world knowledge), procedural (how-to)",
-        "Multi-agent coordination: hierarchical, peer-to-peer, marketplace-based patterns",
-        "Agent safety: sandbox environments, human-in-the-loop, graduated permissions"
+        "So, what are agentic AI interview questions and answers?",
+        "If you're unsure, you're not alone and that’s exactly why this guide exists.",
+        "1. What makes an AI system truly “agentic” instead of just automated?",
+        "In interviews, simply saying “it’s autonomous” is not enough you must explain how autonomy is achiev",
+        "2. What is the difference between goal-driven and instruction-driven systems?"
       ],
       "question_topics": [
         "Agent architecture",
         "Planning & reasoning",
         "Tool use",
         "Multi-agent coordination",
-        "Agent communication",
-        "Agent memory systems",
-        "Agent safety & security"
+        "Agent communication"
       ]
     },
     {
@@ -71,11 +107,11 @@
       "title": "How to Build an Agent Evaluation Framework With Metrics, Rubrics, and Benchmarks",
       "topic": "Agent evaluation/testing frameworks",
       "key_points": [
-        "Trajectory metrics (how agent behaves) vs outcome metrics (what agent achieves)",
-        "Production needs both: outcome tells you if it works, trajectory tells you why it fails",
-        "Evaluation rubrics: accuracy, completeness, efficiency, safety, instruction following",
-        "Benchmarking against standard agent eval suites (GAIA, AgentBench, WebArena)",
-        "Continuous eval pipeline: regression tests on canonical scenarios before deployment"
+        "How to Build an Agent Evaluation Framework With Metrics, Rubrics, and Benchmarks",
+        "How to Build an Agent Evaluation Framework for Production AI",
+        "Trajectory metrics vs. outcome metrics: Which tells you why agents fail",
+        "Outcome metrics tell you if your agent works; trajectory metrics tell you why . Production needs both perspectives.",
+        "Here’s how Galileo supports agent evaluation."
       ],
       "question_topics": [
         "Agent evaluation",
@@ -90,11 +126,11 @@
       "title": "AI Agent Evaluation in Production (2026 Guide) | The Thinking Company",
       "topic": "Production AI agent evaluation and testing",
       "key_points": [
-        "Why traditional testing fails for AI agents (non-deterministic outputs, emergent behaviors)",
-        "Key eval categories: functional correctness, robustness, latency, cost, safety",
-        "Human intervention rate metrics (how often humans must override or correct agent output)",
-        "Primary objective and accuracy thresholds must be defined upfront (95%? 99%?)",
-        "Monitoring: drift detection, cost tracking, latency SLOs, alerting on failure modes"
+        "Why Traditional Testing Fails for AI Agents",
+        "Test Category What It Validates Example",
+        "Human intervention rate (how often humans must override or correct agent output)",
+        "Primary objective: [What the agent should accomplish]",
+        "- Accuracy: [How correct must outputs be? 95%? 99%?]"
       ],
       "question_topics": [
         "Agent evaluation",
@@ -110,11 +146,11 @@
       "title": "7 Agentic AI & Multi-Agent System Interview Questions for 2026 | CallSphere Blog",
       "topic": "Multi-agent systems interview questions",
       "key_points": [
-        "Multi-agent architectures: supervisor-workers, swarm, debate/critic patterns",
-        "Agent memory systems: short-term (scratchpad), long-term (vector store/DB), shared memory",
-        "Critic-based evaluation: use a separate 'critic' agent to validate outputs against rubric",
-        "Agent communication protocols: structured messages vs natural language handoffs",
-        "Security concerns in multi-agent: prompt injection propagation, privilege escalation"
+        "CRITIC{\"Output meets<br/>rubric?\"}",
+        "&quot;What's the weather in NYC?&quot;",
+        "Why Agents Need Memory",
+        "│ &quot;What do I know about this user/topic?&quot;",
+        "│ &quot;How did I handle similar tasks before?&quot;"
       ],
       "question_topics": [
         "Multi-agent coordination",
@@ -130,17 +166,16 @@
       "title": "Building Effective AI Agents | Anthropic",
       "topic": "Anthropic official guidance on building effective agents",
       "key_points": [
-        "Agents vs workflows: agents dynamically direct their own processes; workflows are predefined code paths",
-        "When to use frameworks: start simple, add complexity only when patterns repeat",
-        "Tools should use formats similar to what the model has seen naturally in text on the web",
-        "Test tool usage extensively: run many example inputs to surface mistakes before shipping",
-        "Key design patterns: prompt chaining, routing, parallelization, orchestrator-workers, evaluator-optimizer"
+        "In this post, we share what we’ve learned from working with our customers and building agents oursel",
+        "Agents , on the other hand, are systems where LLMs dynamically direct their own processes and tool u",
+        "When and how to use frameworks",
+        "Keep the format close to what the model has seen naturally occurring in text on the internet.",
+        "Test how the model uses your tools: Run many example inputs in our workbench to see what mistakes th"
       ],
       "question_topics": [
         "Building effective agents",
         "Agent design patterns",
-        "Tool calling & integration",
-        "Agent vs workflow tradeoffs"
+        "Tool calling & integration"
       ]
     },
     {
@@ -149,11 +184,11 @@
       "title": "Multi-agent - Docs by LangChain",
       "topic": "LangChain multi-agent orchestration docs",
       "key_points": [
-        "Subagent pattern: main agent delegates to subagents as tool calls",
-        "Key design considerations: distributed dev (team autonomy), parallelization, multi-hop routing",
-        "Direct user interaction: some patterns allow subagents to converse directly with users",
-        "State management across agents: shared memory, message passing, checkpointing",
-        "LangGraph provides graph-based state machine for multi-agent orchestration"
+        "Subagents A main agent coordinates subagents as tools. All routing passes through the main agent, wh",
+        "Distributed development : Can different teams maintain components independently?",
+        "Parallelization : Can multiple agents execute concurrently?",
+        "Multi-hop : Does the pattern support calling multiple subagents in series?",
+        "Direct user interaction : Can subagents converse directly with the user?"
       ],
       "question_topics": [
         "Multi-agent coordination",
